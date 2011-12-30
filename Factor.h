@@ -11,7 +11,7 @@
 class Factor
 {
 public:
-    Factor(int A, int B, int C); // constructor for factor program
+    Factor(); // constructor for factor program
     void aFactor(int A); // find factors of a
     void bFactor(int B); // find factors of b
     void cFactor(int C); //c factorizor (not necessarily prime factors, but they are included)

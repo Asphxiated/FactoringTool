@@ -1,12 +1,12 @@
 #include "Factor.h"
 using namespace std;
 
-Factor::Factor(int A, int B, int C)
+Factor::Factor()
 {
 
-    a = A;
-    b = B;
-    c = C;
+    a = 0;
+    b = 0;
+    c = 0;
 
 }
 
@@ -582,6 +582,8 @@ void Factor::deleteArrayOfC()
     delete [] pfactorsOfC;
 }
 
+
+// this is the euclidean algorithm for finding GCD's
 int Factor::gcd(int a, int b)
 {
     do
